@@ -1,0 +1,72 @@
+nav {
+    background-color: #444;
+    padding: 15px;
+  }
+  nav a {
+    color: #f0f0f0;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  header h1 {
+    color: #444;
+    font-size: 28px;
+    margin-left: 30px;
+  }
+  
+  /* Styling for the About Me page */
+  section.about-me {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: #fafafa;
+  }
+  section.about-me img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Styling for the Projects section */
+  section.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Styling for the Contact form */
+  form.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #bbb;
+    background-color: #f0f0f0;
+  }
+  form.contact label {
+    margin-top: 15px;
+  }
+  form.contact input, form.contact textarea {
+    width: 90%;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  form.contact button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  form.contact button:hover {
+    background-color: #666;
+  }
+  
